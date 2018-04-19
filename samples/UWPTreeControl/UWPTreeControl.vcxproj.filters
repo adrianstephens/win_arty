@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>314a6c93-2c4e-451e-8524-42f7c3fb48ae</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{1e9af88b-d622-46d6-a365-8061bcf882d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinRT">
+      <UniqueIdentifier>{35e99556-c8d5-49cb-8d93-11ccc129632c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{18104bb4-faf7-4322-bf4c-a308fe11c4ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="BooleanToVisibilityConverter.cpp" />
+    <ClCompile Include="GlyphConverter.cpp" />
+    <ClCompile Include="Control\IntegerToIndentationConverter.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\TreeNode.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\TreeView.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\TreeViewItem.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\TreeViewItemAutomationPeer.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\ViewModel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="..\..\include\filename.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\base\defs.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\platform.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\hashes\SHA.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="FileSystemData.h" />
+    <ClInclude Include="Control\TreeNode.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TreeView.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TreeViewItem.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\TreeViewItemAutomationPeer.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\ViewModel.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="..\..\include\winrt\pre_include.h">
+      <Filter>WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\winrt\Binding.h">
+      <Filter>WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\winrt\base.h">
+      <Filter>WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\winrt\vector.h">
+      <Filter>WinRT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UWPTreeControl_TemporaryKey.pfx" />
+    <None Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="UWPTreeControl.idl" />
+  </ItemGroup>
+</Project>
